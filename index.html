@@ -1,0 +1,422 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
+	
+    
+	<script src="./js/jquery-2.1.0.min.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+	<script src="./js/blocs.min.js"></script>
+	<script src="./js/lazysizes.min.js" defer></script>
+    <title>Home</title>
+
+    
+<!-- Google Analytics -->
+ 
+<!-- Google Analytics END -->
+    
+</head>
+<body>
+<!-- Main container -->
+<div class="page-container">
+    
+<!-- bloc-0 -->
+<div class="bloc bgc-white bloc-fill-screen bg-citysky l-bloc " id="bloc-0">
+	<div class="container fill-bloc-top-edge">
+		<nav class="navbar row">
+			<div class="navbar-header">
+				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse navbar-1">
+				<ul class="site-navigation nav navbar-nav pull-right">
+					<li>
+						<a href="index.html">HOME</a>
+					</li>
+					<li>
+						<a href="#source">SOURCE</a>
+					</li>
+					<li>
+						<a href="#status">STATUS</a>
+					</li>
+					<li>
+						<a href="#utenti">UTENTI</a>
+					</li>
+					<li>
+						<a href="#picco">PICCO</a>
+					</li>
+					<li>
+						<a href="#seguimatteo">SEGUI MATTEO</a>
+					</li>
+					<li>
+						<a href="#lni-si">2015</a>
+					</li>
+
+					<li>
+						<a href="#leganordillustrator2016">2016</a>
+					</li>
+					<li>
+						<a href="#leganordillustrator2017">2017</a>
+					</li>
+					<li>
+						<a href="#bloc-10">TABELLE</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<h1 class="text-center hero-bloc-text tc-white">
+					Urban analysis of a Bot-Net
+				</h1>
+				<h3 class="text-center mg-lg hero-bloc-text-sub tc-white">
+					Analisi contenuti automatici Twitter
+				</h3>
+				<div class="text-center">
+					<a class="btn-wire btn btn-xl wire-btn-white" onclick="scrollToTarget('#source')">Get Started</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container fill-bloc-bottom-edge">
+		<div class="row">
+			<div class="col-sm-12">
+				<a id="scroll-hero" class="blocs-hero-btn-dwn" href="#"><span class="fa fa-chevron-down"></span></a>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-0 END -->
+
+<!-- ScrollToTop Button -->
+<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
+<!-- ScrollToTop Button END-->
+
+
+<!-- Footer - bloc-1 -->
+<div class="bloc bgc-white l-bloc" id="bloc-1">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-xs-12 col-md-8 col-md-offset-2">
+				<h3 class="statement-bloc-text">
+					“ Arriverà prima la Padania della mia laurea &nbsp;"
+				</h3>
+				<p class="text-center">
+					<strong>Matteo Salvini</strong>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Footer - bloc-1 END -->
+
+<!-- Footer - source -->
+<div class="bloc source b-divider bgc-medium-jungle-green d-bloc" id="source">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-sm-6">
+				<a href="#"><embed src="img/source_chart.svg" type="image/svg+xml" data-src="img/source_chart.svg" class="img-responsive img-frame-lg animated fadeIn lazyload" /></a>
+			</div>
+			<div class="col-sm-6">
+				<h2 class="mg-lg">
+					Grafico dei source usati da utenti delle app
+				</h2>
+				<p class="mg-lg">
+					Il grafico è costruito su 382.527 status (RT e tweet ) di 1.071 utenti attraverso cui le app hanno retwittato e twittato automaticamente.
+					 <br><br><strong>Segui Matteo<br>LegaNordIllustrator <br>Salvini Illustrator</strong><br><br>
+					 Oltre alla percentuale di status con le tre app è da notare la grossa presenza di source Facebook anche quella molto probabilmente frutto di un automatismo su quella piattaforma che pubblica 
+					 anche su twitter da Facebook.
+Per ora questa rimane un'ipotesi che molto probabilmente verrà approfondita in seguito.
+Cosa indica il source ? Il source indica la partenza del tweet : esempio sto usando un iphone faccio un tweet o un rt nel mio tweet il campo source del json accessibile via api indica il dispositivo da cui è partito lo status in questo caso Iphone.
+Grazie appunto al source è possibile individuare tutti gli Rt e tweet automatici delle app.
+					 <br>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Footer - source END -->
+
+<!-- Footer - status -->
+<div class="bloc b-divider status bgc-white l-bloc" id="status">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-sm-6 col-sm-push-6">
+				<a href="#"><embed src="img/general_chart.svg" type="image/svg+xml" data-src="img/general_chart.svg" class="img-responsive img-frame-lg animated fadeIn lazyload" /></a>
+			</div>
+			<div class="col-sm-6 col-sm-pull-6">
+				<h2 class="mg-lg">
+					Grafico che mostra numero status in base alle tre APP
+				</h2>
+				<p class="mg-lg">
+					Quello che si nota subito è l'uso diverso che viene fatto delle tre app <br><br><strong>Segui Matteo<br>LegaNordIllustrator <br>Salvini Illustrator<br></strong><br><br>con Segui Matteo usata solo per fare RT mentre le altre 2 due per produrre tweet identici nel corso degli anni a partire dal 2015. Il grafico appunto mostra nella prima barra il munero totale di status per app , nella seconda i solo RT e terza i soli tweet . Colpisce il numero di Rt automatici fatti in un anno .<br>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Footer - status END -->
+
+<!-- Footer - utenti -->
+<div class="bloc b-divider utenti bgc-medium-jungle-green d-bloc" id="utenti">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-sm-6">
+				<a href="#"><embed src="img/uteti_app_chart.svg" type="image/svg+xml" data-src="img/uteti_app_chart.svg" class="img-responsive img-frame-lg animated fadeIn lazyload" /></a>
+			</div>
+			<div class="col-sm-6">
+				<h2 class="mg-lg">
+					Grafico che mostra gli utenti attestati su ogni app
+				</h2>
+				<p class="mg-lg">
+					Cliccando su ogni barra o sulle label in alto è possibile vedere gli utenti relativi individuati sulle  app. 
+					<br>Ordinando in base al campo "%_CON_APP" è possibile stimare di questi utenti il grado di automatizzazione dell'utente e la percentuale di tweet automatizzati generati dal sistema delle tre app su quelli non automatizzati  
+<br><br><strong>Segui Matteo<br>LegaNordIllustrator <br>Salvini Illustrator</strong><br><br>
+Altro campo interessante è ULTIMO_SOURCE_USATO che mostra la provenienza dell'ultimo tweet al 10 gennaio 2018 .
+Su molti utenti si nota come l'attività su twitter si conclude contestualmente all'ultimo tweet automatico delle app<br>
+Incrociando appunto il dato su ULTIMO_SOURCE_USATO con %_CON_APP possiamo concludere che più di un terzo degli utenti attestati sulle app non sono affatto attivi su twitter se non per automatismi generato centralmente dal sofware delle app
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Footer - utenti END -->
+
+<!-- Footer - picco -->
+<div class="bloc picco b-divider bgc-white l-bloc" id="picco">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-sm-6 col-sm-push-6">
+				<a href="#"><embed src="img/picco_creazione.svg" type="image/svg+xml" data-src="img/picco_creazione.svg" class="img-responsive img-frame-lg animated fadeIn lazyload" /></a>
+			</div>
+			<div class="col-sm-6 col-sm-pull-6">
+				<h2 class="mg-lg">
+					Grafico che mostra Picco in base a data di creazione utenti su twitter
+				</h2>
+				<p class="mg-lg">
+					Durante la ricerca è stato rilevato un picco in base alla data di creazione degli utenti che usano le app.
+					<br>Il grafico  mostra appunto questo picco di utenti creati tra il 24 e il 27 Febbario del 2015 coincidente con la data di lancio di una app specifica. 
+					<br>Cliccando su ogni barra specifica del giorno o sulle label in alto è possibile vedere gli utenti relativi creati su twitter in quei giorni . 
+					<br>Ordinando in base al campo "%_CON_APP" è possibile stimare di questi utenti il grado di automatizzazione dell'utente e la percentuale di tweet automatizzati generati dal sistema delle tre app su quelli non automatizzati 
+					
+					<br><br><strong>Segui Matteo<br>LegaNordIllustrator <br>Salvini Illustrator</strong><br>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Footer - picco END -->
+
+<!-- Footer - seguimatteo -->
+<div class="bloc b-divider seguimatteo bgc-medium-jungle-green d-bloc" id="seguimatteo">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-sm-6">
+				<a href="#"><embed src="img/distibuzione_giorni2014.svg" type="image/svg+xml" data-src="img/distibuzione_giorni2014.svg" class="img-responsive img-frame-lg animated fadeIn lazyload" /></a>
+			</div>
+			<div class="col-sm-6">
+				<h2 class="mg-lg">
+					Grafico RT del 2014 con app Segui Matteo
+				</h2>
+				<p class="mg-lg">
+					Il grafico è costruito su 235.263 status RT di 385 utenti che automaticamente retwittavano Salvini. Il totale dei tweet retwittati è di 1.169 principalmente di Matteo salvini con 230.782 RT in tutto ma anche di altri utenti.<br>@matteosalvinimi num tot RT : 230782 <br>@viscontino num tot RT : 1583 <br>@PanoramadItalia num tot RT : 727 <br>@lumorisi num tot RT : 499 <br>@borghi_claudio num tot RT : 473 <br>@RobertoMaroni_ num tot RT : 353 <br>@giucruciani num tot RT : 257 <br>@GiorgiaMeloni num tot RT : 157 <br>@LaGabbiaTw num tot RT : 132 <br>@renatobrunetta num tot RT : 113 <br>@enricoruggeri num tot RT : 111 <br>@1giornodapecora num tot RT : 76 <br>Cliccando sul grafico è possibile vedere tutti gli RT di quel giorno. Su questo <a href="img/tabelle/RT_SALVIN0.html" target="_blank">link</a> è possibile vedere il dettaglio per ogni tweet gli utenti delle app che hanno fatto RT<br>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Footer - seguimatteo END -->
+
+<!-- Footer - lni-si -->
+<div class="bloc lni-si b-divider bgc-white l-bloc" id="lni-si">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-sm-6 col-sm-push-6">
+				<a href="#"><embed src="img/distibuzione_giorni2015.svg" type="image/svg+xml" data-src="img/distibuzione_giorni2015.svg" class="img-responsive img-frame-lg animated fadeIn lazyload" /></a>
+			</div>
+			<div class="col-sm-6 col-sm-pull-6">
+				<h2 class="mg-lg">
+					Grafico dei tweet del 2015 con app LegaNordIllustrator e Salvini Illustrator
+				</h2>
+				<p class="mg-lg">
+					Il grafico è costruito su 94.080 status tutti Tweet con testi ripetuti rilanciati da un totale di 706 utenti che automaticamente inondavano twitter di contenuti identici <br>Quindi si assite in questo anno ad un cambio di strategia non più RT automatici ad illudere di un seguito di Salvini su twitter (RT di ogni status) ma ondate di tweet identici per simulare una presenza ed un interesse del tema anche su Twitter in concomitanza principalmente di eventi della lega in piazza (++ OGGI RIEMPIAMO TWITTER CON: #LIBERIAMOCI ++ Partecipa in Rete! ) e con prevalenza attacchi a renzi #RENZIACASA e grillini<br>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Footer - lni-si END -->
+
+<!-- Footer - leganordillustrator2016 -->
+<div class="bloc b-divider bgc-medium-jungle-green d-bloc" id="leganordillustrator2016">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-sm-6">
+				<a href="#"><embed src="img/distibuzione_giorni2016.svg" type="image/svg+xml" data-src="img/distibuzione_giorni2016.svg" class="img-responsive img-frame-lg animated fadeIn lazyload" /></a>
+			</div>
+			<div class="col-sm-6">
+				<h2 class="mg-lg">
+					Grafico dei tweet del 2016 con app LegaNordIllustrator
+				</h2>
+				<p class="mg-lg">
+					Il grafico è costruito su 31.171 status tutti Tweet con testi ripetuti rilanciati da un totale di 168 utenti che automaticamente inondavano twitter di contenuti identici <br>Rispetto ad anno precedente assistiamo a dismissione della app Salvini Illustrator si nota subito un minor numero di utenti apoggiato sulle app per postare contenuti identici . Nonostante però il minor di numero di utenti troviamo picchi impressionanti su alcuni giorni come ad esempio i 2.610 tweet del 20161112 con 18 tweet a testa per utente . Interessante in questo anno e osservare la sequenza di lancio dei tweet ( prima colonna tabelle ORDINE_SEQUENZIALE e filtrando in ricerca per testo) pressochè sempre identica Con @lumorisi e @viscontino a iniziare le danze e a seguire ... 
+					Consiglio al giovane programnatore di "compiuterre" @viscontino di dare un'occhiata ai random .... 
+					Passi il testo sempre identico ma almeno un pò di randomicità sulla sequenza non è difficile da implementare. In quest'anno inoltre a livelli di contenuti si osserva un uso sempre più marcato a contorno della presenza  in TV di Salvini<br>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Footer - leganordillustrator2016 END -->
+
+<!-- Footer - leganordillustrator2017 -->
+<div class="bloc b-divider bgc-white l-bloc" id="leganordillustrator2017">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-sm-6 col-sm-push-6">
+				<a href="#"><embed src="img/distibuzione_giorni2017.svg" type="image/svg+xml" data-src="img/distibuzione_giorni2017.svg" class="img-responsive img-frame-lg animated fadeIn lazyload" /></a>
+			</div>
+			<div class="col-sm-6 col-sm-pull-6">
+				<h2 class="mg-lg">
+					Grafico dei tweet del 2017 con app LegaNordIllustrator
+				</h2>
+				<p class="mg-lg">
+					Il grafico è costruito su 22.013 status tutti Tweet con testi ripetuti rilanciati da un totale di 164 utenti che automaticamente inondavano twitter di contenuti sempre identici 
+					<br>Rispetto ad anno precedente assistiamo ad un uso più costante della app un tweet in un giorno . Con un picco di tweet nel giorno di Pontida 20170917 con 1380 tweet un altro picco il 20170311 con la presenza di salvini a Napoli . 
+					Il sud va conquistato con un sacco de tweet tutti uguali ... viva il capitano !!! 
+					Interessante sempre  osservare la sequenza di lancio dei tweet ( prima colonna ORDINE_SEQUENZIALE tabelle linkate nelle relative barre e label del grafico ) pressochè sempre identico <br>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Footer - leganordillustrator2017 END -->
+
+<!-- Footer - bloc-10 -->
+<div class="bloc feature-list bgc-medium-jungle-green d-bloc" id="bloc-10">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-sm-12">
+				<h2 class="text-center mg-md">
+					TABELLE
+				</h2>
+			</div>
+		</div>
+		<div class="row voffset">
+			<div class="col-sm-6">
+				<div class="col-sm-3 col-md-3 col-sm-push-9">
+					<div class="text-center">
+						<a href="img/tabelle/LegaNordIllustrator.html" target="_blank"><span class="et-icon-presentation icon-round icon-md"></span></a>
+					</div>
+				</div>
+				<div class="col-sm-9 col-sm-pull-3">
+					<h3 class="text-right mg-md blocs-mob-center-text">
+						LegaNordIllustrator
+					</h3>
+					<p class="text-right blocs-mob-center-text">
+						tabella contenente tutti gi utenti della app LegaNordIllustrator
+					</p>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="col-sm-3">
+					<div class="text-center">
+						<a href="img/tabelle/all_user.html" target="_blank"><span class="et-icon-bargraph icon-round icon-md"></span></a>
+					</div>
+				</div>
+				<div class="col-sm-9">
+					<h3 class="mg-md blocs-mob-center-text">
+						All_USER
+					</h3>
+					<p class="blocs-mob-center-text">
+						tabella contenente tutti gi utenti della app
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="row voffset">
+			<div class="col-sm-6">
+				<div class="col-sm-3 col-md-3 col-sm-push-9">
+					<div class="text-center">
+						<a href="img/tabelle/Segui_Matteo.html" target="_blank"><span class="et-icon-bargraph icon-round icon-md"></span></a>
+					</div>
+				</div>
+				<div class="col-sm-9 col-sm-pull-3">
+					<h3 class="text-right mg-md blocs-mob-center-text">
+						Segui_Matteo
+					</h3>
+					<p class="text-right blocs-mob-center-text">
+						tabella contenente tutti gi utenti della app Segui Matteo
+					</p>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="col-sm-3">
+					<div class="text-center">
+						<a href="img/tabelle/RT_SALVIN0.html" target="_blank"><span class="et-icon-presentation icon-round icon-md"></span></a>
+					</div>
+				</div>
+				<div class="col-sm-9">
+					<h3 class="mg-md blocs-mob-center-text">
+						RT_Segui_Matteo
+					</h3>
+					<p class="blocs-mob-center-text">
+						tabella master con tutti gli RT con accesso a relative tabelle dei dettagli
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="row voffset">
+			<div class="col-sm-6">
+				<div class="col-sm-3 col-md-3 col-sm-push-9">
+					<div class="text-center">
+						<a href="img/tabelle/Salvini_Illustrator.html" target="_blank"><span class="et-icon-presentation icon-round icon-md"></span></a>
+					</div>
+				</div>
+				<div class="col-sm-9 col-sm-pull-3">
+					<h3 class="text-right mg-md blocs-mob-center-text">
+						Salvini_Illustrator
+					</h3>
+					<p class="text-right blocs-mob-center-text">
+						tabella contenente tutti gi utenti della app Salvini_Illustrator
+					</p>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="col-sm-3">
+					<div class="text-center">
+						<a href="img/tabelle/all_day.html" target="_blank"><span class="et-icon-bargraph icon-round icon-md"></span></a>
+					</div>
+				</div>
+				<div class="col-sm-9">
+					<h3 class="mg-md blocs-mob-center-text">
+						All_day
+					</h3>
+					<p class="blocs-mob-center-text">
+						tabella master con tutti gli RT e tweet automatici per giorno con accesso a relative tabelle dei dettagli
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Footer - bloc-10 END -->
+
+</div>
+<!-- Main container END -->
+    
+
+</body>
+</html>
